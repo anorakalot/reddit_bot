@@ -1,0 +1,5 @@
+#in order to automate the bot on a linux enviroment you neet to use the crontab linux command
+#run this command on a linux terminal
+crontab -e
+#choose whatever editor you want to use and then type in this command
+* * * * * cd <the directory of your python file>; python3 <insert_your_file_name_here>
